@@ -7,8 +7,8 @@
  * URL: http://respooonsive.com/ever-after
  */
 
- 
- 
+
+
 /*------------------------------
     Table of Contents
 ---------------------------------
@@ -20,14 +20,14 @@
 	VI. 	Events
 	VI. 	RSVP
 	VIII.	Gifts
-	IX.		Mediaqueries	
+	IX.		Mediaqueries
 
 */
 
-	
+
 /*   I. 	Defaul Selectors
-==============================*/ 
- 
+==============================*/
+
 body {
   background-color: #f2f2f2;
     font-family: "Roboto Slab";
@@ -98,8 +98,8 @@ text-shadow: rgba(0, 0, 0, 0.6) 0px 1px 0px;
 	display:block;
 	height: 1em;
 	border: 0;
-	margin: 1em 0;
-	padding: 0 0 40px;
+	margin: 0   0;
+	padding: 0 0 0;
 }
 
 #headerwrap h2 {
@@ -171,12 +171,12 @@ padding:0;
 
 /*   I. Defaul Selectors End
 
-==============================*/ 
+==============================*/
 
 
 
 /*   II. Menu
-==============================*/ 
+==============================*/
 
 
 .menu {
@@ -244,7 +244,7 @@ padding:0;
 .menu a > i {
 	float: left;
 	display: inline-block;
-	vertical-align: middle; 
+	vertical-align: middle;
 	text-align: left;
 	width: 25px;
 	font-size: 14px;
@@ -336,12 +336,12 @@ padding:0;
 
 
 /*   II. Menu End
-==============================*/ 
+==============================*/
 
 
 
 /*   II.  	Header
-==============================*/ 
+==============================*/
 
 #headerwrap {
 	//background: url(../img/header-bg.jpg) no-repeat center top;
@@ -352,7 +352,7 @@ padding:0;
 	background-position: center center;
 	min-height: 700px;
 	width: 100%;
-	
+
     -webkit-background-size: 100%;
     -moz-background-size: 100%;
     -o-background-size: 100%;
@@ -395,16 +395,15 @@ top: 0px;
 width: 100%;
 height: 100%;
 /* background-image: url(http://www.catthemes.net/demos/themes/prest/img/overlay.png); */
-background-image: url(../img/dots.png);
 }
 
 
 /*   II.	Header End
-==============================*/ 
+==============================*/
 
 
 /*   III.	Countdown
-==============================*/ 
+==============================*/
 #countdown_dashboard {
 	list-style:none;
 	padding:0;
@@ -441,11 +440,11 @@ background-image: url(../img/dots.png);
 }
 
 /*   III.	Countdown End
-==============================*/ 
+==============================*/
 
 
 /*   IV. 	Love Story
-==============================*/ 
+==============================*/
 
 .ch-grid {
 	margin: 20px 0 0 0;
@@ -485,10 +484,10 @@ width:250px;
 	border-radius: 50%;
 	position: relative;
 	cursor: default;
-	box-shadow: 
+	box-shadow:
 		inset 0 0 0 16px rgba(255,255,255,0.6),
 		0 1px 2px rgba(0,0,0,0.1);
-		
+
 	-webkit-transition: all 0.4s ease-in-out;
 	-moz-transition: all 0.4s ease-in-out;
 	-o-transition: all 0.4s ease-in-out;
@@ -497,19 +496,19 @@ width:250px;
 }
 
 /* This is where you change the path of the images for the couple */
-.ch-img-1 { 
+.ch-img-1 {
 	background-image: url(../images/2.jpg);
     background-position-x: right;
     background-size: cover;
 }
 
-.ch-img-2 { 
+.ch-img-2 {
 	background-image: url(../images/3.jpg);
     background-position-x: right;
     background-size: cover;
 }
 
-.ch-img-3 { 
+.ch-img-3 {
 	background-image: url(../images/4.jpg);
     background-position-x: right;
     background-size: cover;
@@ -544,8 +543,8 @@ width:250px;
 	padding: 90px 0 0 0;
 	height: 140px;
 	font-family: 'Open Sans', Arial, sans-serif;
-	text-shadow: 
-		0 0 1px #fff, 
+	text-shadow:
+		0 0 1px #fff,
 		0 1px 2px rgba(0,0,0,0.3);
 }
 
@@ -583,7 +582,7 @@ width:250px;
 }
 
 .ch-item:hover {
-	box-shadow: 
+	box-shadow:
 		inset 0 0 0 1px rgba(255,255,255,0.1),
 		0 1px 2px rgba(0,0,0,0.1);
 }
@@ -640,10 +639,10 @@ width:250px;
 }
 
 /*   IV.	Love Story
-==============================*/ 
+==============================*/
 
 /*   V. 	About
-==============================*/ 
+==============================*/
 .dropcap {
 	float: left;
 	font-size: 5.8rem;
@@ -664,12 +663,12 @@ width:250px;
 
 
 /*   V. About End
-==============================*/ 
+==============================*/
 
 
 
 /*   VII. RSVP
-==============================*/ 
+==============================*/
 #rsvpwrap {
 	background: url(../img/rsvp-bg.jpg) no-repeat center top;
 /* 	background: url(http://666a658c624a3c03a6b2-25cda059d975d2f318c03e90bcf17c40.r92.cf1.rackcdn.com/unsplash_5259a34e5d050_1.JPG) no-repeat center top; */
@@ -680,7 +679,7 @@ width:250px;
 	background-position: center center;
 	min-height: 500px;
 	width: 100%;
-	
+
     -webkit-background-size: 100%;
     -moz-background-size: 100%;
     -o-background-size: 100%;
@@ -721,11 +720,11 @@ border-bottom: 3px solid #464D9C;
 }
 
 /*   VII. RSVP End
-==============================*/ 
+==============================*/
 
 
 /*   VII. Events
-==============================*/ 
+==============================*/
 
 .event a {
 display: block;
@@ -813,7 +812,7 @@ margin: 0 0 10px;
 ==============================*/
 
 /*   VII.	Footer
-==============================*/ 
+==============================*/
 
 
 #footer {
@@ -924,4 +923,3 @@ display:block;
 display:block;
 }
 }
-

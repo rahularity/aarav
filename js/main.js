@@ -3,10 +3,10 @@
     $(document).ready(function () {
         jQuery('#countdown_dashboard').countDown({
             targetDate: {
-                'day': 7,
-                'month': 8,
+                'day': 2,
+                'month': 6,
                 'year': 2019,
-                'hour': 0,
+                'hour': 8,
                 'min': 0,
                 'sec': 0
             }
@@ -48,11 +48,7 @@
             transition_speed: 700,
             slide_links: 'blank',
             slides: [{
-                image: 'images/slider-1.jpg'
-            }, {
-                image: 'images/slider-2.jpg'
-            }, {
-                image: 'images/slider-3.jpg'
+                image: 'images/slider-6.jpeg'
             }]
         });
     });
